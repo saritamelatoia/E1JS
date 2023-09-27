@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Hello</title>
 </head>
 <body>
-<h1 class="saludo-h1">Hola buenas tardes</h1>
-<p class="saludo-p">Espero que te encuentres bien</p>
+    <hr class="hr"/>
+    <!-- onclick / atributo -->
+    <h3 onclick="alert('Estoy haciendo click desd atributo')">
+    Clickeameeee
+</h3>
+<hr class="hr">
+<!--Desde js evento-->
+    <h2 id="saludoh1">Hola buenas</h2>
+    <p id="hellomoto">Que tal?</p>
+<hr class="hr">
+<!-- blur / focus -->
+<h3>Focus/Blur</h3>
+<input type="text" id="inputBlur" placeholder="Ingresa algo"/>
+<!-- Change -->
+<h3>Change</h3>
+<input type="text" id="inputChange" placeholder="Pone algo" />
+<!--Event-->
+<h3>Event</h3>
+<button class="btn">Holaevent</button>
+<!--Temporizador-->
+<h1 id="cambiacolor">Hola cambiare de color en 3 segundos</h1>
 
-<script src="main.js"></script>        
+<script src="main.js"></script>
+
 </body>
 </html>

@@ -1,7 +1,11 @@
 .saludo-h1 {
-    color: blue;
+    color: green;
 }
 
 .saludo-p {
-    color: orangered;
+    color: green;
+}
+
+body {
+    background-color: greenyellow;
 }
